@@ -7,7 +7,7 @@ import { timelineElements } from "../../timelineData";
 export default function Timeline() {
     return(
         <div className="timeline">
-            <h1 className="title">CAAMFEST Timeline</h1>
+            <h3>Timeline</h3>
             <VerticalTimeline>
                 {timelineElements.map(e => {
                     return (

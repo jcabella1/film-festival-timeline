@@ -1,4 +1,4 @@
-
+import './bibliography.scss';
 export default function Bibliography() {
     return(
         <div className="bibliography">
