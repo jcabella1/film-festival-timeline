@@ -4,6 +4,7 @@ import "./timeline.scss";
 import "react-vertical-timeline-component/style.min.css";
 import { timelineElements } from "../../timelineData";
 
+
 export default function Timeline() {
     return(
         <div className="timeline">
@@ -21,6 +22,7 @@ export default function Timeline() {
                             <div className="img-container">
                                 <img src={e.image} alt="timelineimg" />
                             </div>
+                            <h4>{e.date}</h4>
                             <h3 className="vertical-timeline-element-title">{e.title}</h3>
                             <p className="description">{e.description}</p>
                         </VerticalTimelineElement>
