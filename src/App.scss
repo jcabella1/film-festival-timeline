@@ -2,12 +2,26 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+    @media screen and (prefers-reduced-motion: reduce) {
+        html {
+            scroll-behavior: auto;
+        }
+    }
+}
+
 body {
-    background: #9bebff;
+    height: 100vh;
+    background: #51dcff;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
+    font-weight: 500;
     color: rgb(53, 53, 53);
+    overflow-x: hidden; 
+
 }
+
 .title {
     font-size: 10vw;
     text-align: center;
@@ -15,7 +29,6 @@ body {
     margin-bottom: 0;
     margin-top:1em;
 }
-
 h2 {
     text-align: center;
     font-size: 2vw;
