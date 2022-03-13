@@ -10,7 +10,7 @@ export const timelineElements = [
     {
         id: 2,
         title: "A New Journey",
-        description: "After a short break in 1985 to focus on organizing the National Asian American Media Arts Conference at UCLA, NAATA came back to the Bay Area to take full charge of the SFIAAFF. The festival was no longer simply part of ACV, but its own separate entity, marking the start of a new journey for the festival. Due to a scarcity of Asian American films at the time, the festival would often feature films from Asian filmmakers, often from China. From here on, the SFIAAF continued to grow at a rapid pace, and by the festival’s run in 1994, over 100 works were showcased.",
+        description: "After a short break in 1985 to focus on organizing the National Asian American Media Arts Conference at UCLA, NAATA came back to the Bay Area to take full charge of the SFIAAFF. The festival was no longer simply part of ACV, but its own separate entity, marking the start of a new journey for the festival. Due to a scarcity of Asian American films at the time, the festival would often feature films from Asian filmmakers, often from China. From here on, the SFIAAFF continued to grow at a rapid pace, and by the festival’s run in 1994, over 100 works were showcased.",
         date: "1986",
         image: "https://bamlive.s3.amazonaws.com/aapi_image-7-aaff-montages-1982-poster-2010-opt_1200.jpg",
         icon: "icon"
@@ -39,4 +39,24 @@ export const timelineElements = [
         image: "http://www.roxie.com/wp-content/uploads/2018/04/caamfest36-614x317.jpg",
         icon: "icon"
     }
+];
+
+export const bibliographyData = [
+    {
+        id: 1,
+        title: "",
+        url:""
+    },
+    {
+        id: 1,
+        title: "",
+        url:""
+    },
+    {
+        id: 1,
+        title: "",
+        url:""
+    },
+    
+
 ];

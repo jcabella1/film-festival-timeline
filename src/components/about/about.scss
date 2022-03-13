@@ -7,8 +7,15 @@
     scroll-behavior: smooth;
 }
 
+.divider {
+    width: 50%;
+    height: 30%;
+    padding: 10px;
+    margin: 10px;
+}
+
 .cover-img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.imgur.com/8JhGRPN.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 90, 87, 0.25)), url("https://i.imgur.com/8JhGRPN.jpg");
     /* Set a specific height */
     height: 100vh;
     width: 100%;
@@ -31,10 +38,15 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 50px;
     
     h1 {
         font-weight: 500;
         font-size: 12vw;
+        margin: 0;
+        
     }
     a {
         text-decoration: underline;
@@ -45,10 +57,16 @@
 
     .down-btn {    
         text-decoration: none;
+        font-size: 0.9em;
         bottom: 70px;
         left: 40%;
+
+        h3 {
+            margin-top: 50px;
+            font-size: 2em;
+        }
         img {
-            width: 30px;
+            width: 50px;
         }
     }
     

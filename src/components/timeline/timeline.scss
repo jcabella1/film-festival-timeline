@@ -1,17 +1,31 @@
 .timeline {
     scroll-behavior: smooth;
 }
-h3 {
-    font-size: 2em;
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    font-family: "Raleway", sans-serif;
-}
 h4 {
     text-align: center;
     font-size: 1.25em;
     color: grey;
+}
+
+.timeline-title {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        font-size: 3em;
+        text-align: center;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        padding-bottom: 30px;
+        font-family: "Raleway", sans-serif;
+    }
+
+    img {
+        margin: 5%;
+        width: 10em;
+    }
 }
 
 .img-container {

@@ -8,7 +8,12 @@ import { timelineElements } from "../../timelineData";
 export default function Timeline() {
     return(
         <div className="timeline" id="timeline">
-            <h3>Timeline</h3>
+
+            <div className="timeline-title">
+                <img src="/assets/divider-left.png" alt=""/>
+                <h3>Timeline</h3>
+                <img src="/assets/divider-right.png" alt=""/>
+            </div>
             <VerticalTimeline>
                 {timelineElements.map(e => {
                     return (
