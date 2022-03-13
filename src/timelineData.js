@@ -40,23 +40,30 @@ export const timelineElements = [
         icon: "icon"
     }
 ];
-
 export const bibliographyData = [
     {
         id: 1,
-        title: "",
-        url:""
+        title: "About",
+        url:"https://caamedia.org/about-caam/ "
     },
     {
-        id: 1,
-        title: "",
-        url:""
+        id: 2,
+        title: "Introducing CAAMFest 2013, March 14 - 24",
+        url:"https://caamedia.org/blog/2013/01/17/introducing-caamfest-2013/"
     },
     {
-        id: 1,
-        title: "",
-        url:""
+        id: 3,
+        title: "CAAMFest36 - It's a Wrap!",
+        url:"https://caamedia.org/blog/2018/05/31/caamfest36-its-a-wrap/"
     },
-    
-
+    {
+        id: 4,
+        title: "History",
+        url:"https://caamedia.org/history-timeline/"
+    },
+    {
+        id: 5,
+        title: "Throwback Thursday: 1982 to 2015",
+        url:"https://caamedia.org/blog/2015/02/25/inaugural-film-festival-1982/"
+    }
 ];

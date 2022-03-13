@@ -1,24 +1,50 @@
 .bibliography {
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
     padding: 1em;
     margin: 0px auto;
     background-color: white;
-    border-radius: 10px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    h3 {
+
+        font-size: 3em;
+        text-align: center;
+    }
 }
 
-h3 {
-    font-size: 3em;
-    text-align: center;
-}
+
+
 
 p {
     text-align: center;
+    margin: 0.5em;
+    a:visited {
+        color:rgb(0, 115, 150);
+    }
 }
 
-.sources {
+.source-list {
     text-decoration: none;
+    color: black;
+    ul {
+    list-style-type: none;
+        li {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 1em;
+            
+        }
+    }
+    a {
+        color:rgb(0, 115, 150);
+        padding-left: 20px;
+    }
+    a:visited {
+        color:rgb(0, 115, 150);
+    }
 }

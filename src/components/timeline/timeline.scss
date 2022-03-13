@@ -1,25 +1,17 @@
 .timeline {
     scroll-behavior: smooth;
 }
-h4 {
-    text-align: center;
-    font-size: 1.25em;
-    color: grey;
-}
 
 .timeline-title {
     display:flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    filter: brightness(1000%);
 
     h3 {
-        font-size: 3em;
-        text-align: center;
-        margin-top: 2em;
-        margin-bottom: 1em;
-        padding-bottom: 30px;
         font-family: "Raleway", sans-serif;
+        font-size: 3em;
     }
 
     img {
@@ -41,22 +33,34 @@ img {
 
 .vertical-timeline-element-title {
     margin: 10px;
+    font-size: 2em;
+    text-align: center;
+    margin: 2em;
+    padding-top:0.5em;
+    font-family: "Raleway", sans-serif;
 }
 
 .vertical-timeline-element-content {
     box-shadow: 0 0.25em 0.5em 0, rgba(0, 0, 0, 0.25), 
     0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
     padding: 2em 3em !important;
+    h4 {
+    text-align: center;
+    font-size: 1.25em;
+    color: grey;
+    padding-top:1em;
+}
 }
 
 .date {
     margin-top: 5px;
     color: rgb(255, 255, 255);
     font-weight: bold;
+    font-size: 3em;
 }
 
 .description {
-    margin: 1.5em 0 2em 0;
+    margin: 1.25em 0 1.5em 0;
 }
 
 // @media only screen and (max-width: 1700px) {

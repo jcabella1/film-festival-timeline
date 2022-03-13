@@ -18,7 +18,7 @@ export default function Timeline() {
                 {timelineElements.map(e => {
                     return (
                         <VerticalTimelineElement
-                        key={e.key}
+                        key={e.id}
                         date={e.date}
                         image={e.image}
                         iconStyle={{ background: "#06D6A0"}}
