@@ -26,6 +26,7 @@ export default function Timeline() {
                         dateClassName="date">
                             <div className="img-container">
                                 <img src={e.image} alt="timelineimg" />
+                                <div className="img-src"><a href={e.imagesrc} target="_blank" rel="noreferrer">Image Source↗</a></div>
                             </div>
                             <h4>{e.date}</h4>
                             <h3 className="vertical-timeline-element-title">{e.title}</h3>

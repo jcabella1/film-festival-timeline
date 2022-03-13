@@ -18,7 +18,7 @@ export default function Bibliography() {
                     {listItems}
                 </ul>
             </div>
-            <p>Images taken from <a href="https://caamedia.org/caamfest-history/" target="_blank" rel="noreferrer">CAAMedia.com</a> and <a href="https://bampfa.org/page/shelves-asian-american-cinema-rarities-bampfa-film-library-study-center" target="_blank" rel="noreferrer">BAMPFA.org</a></p>    
+            <p>See each timeline entry for image sources.</p>    
 
             <p>Website by J. Abella for ES 363 (Spring 2022)</p>
         </div>

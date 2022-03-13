@@ -23,12 +23,21 @@
 .img-container {
     width: auto;
     height: auto;
+
 }
 img {
     width: 100%;
     height: 100%;
     border-radius: 1.25em;;
 
+}
+
+.img-src {
+    padding: 10px;
+    text-align: center;
+    a{
+        color:gray;
+    }
 }
 
 .vertical-timeline-element-title {
